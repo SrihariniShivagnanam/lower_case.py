@@ -1,0 +1,12 @@
+def count_lowercase_in_string(s):
+    lowercase_count = 0
+    for char in s:
+        if 97 <= ord(char) <= 122:
+           lowercase_count += 1
+    return lowercase_count
+    
+string = "Hello team, I'm Sri!"
+print(count_lowercase_in_string(string))
+    
+    
+    
